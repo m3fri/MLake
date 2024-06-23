@@ -78,7 +78,7 @@ class EventListener implements Listener {
 				$this->plugin->playersInZone[$playerName] = time();
 				$player->sendMessage($messages["enter_zone"]);
 				$task = new CheckPlayerTask($this->plugin, $player);
-				$taskId = $this->plugin->getServer()->getScheduler()->scheduleRepeatingTask($task, 20)->getTaskId();
+				$taskId = $this->plugin->getServer()->getScheduler()->scheduleDelayedTask($task, 20)->getTaskId();
 				$this->plugin->addTask($playerName, $taskId);
 			}
 		} else {
