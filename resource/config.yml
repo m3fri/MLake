@@ -1,0 +1,26 @@
+---
+world: spawn
+minx: 751
+miny: 16
+minz: -1000
+maxx: 759
+maxy: 20
+maxz: -996
+time: 15
+money: 50000
+messages:
+  enter_zone: Вы вошли в денежное озеро
+  exit_zone: Вы вышли из денежного озера
+  reward: Вы получили {money} денег!
+  time_left: 'Осталось: {minutes}:{seconds}'
+  set_position1: Первая позиция установлена на ({x}, {y}, {z}).
+  set_position2: Вторая позиция установлена на ({x}, {y}, {z}). Позиции сохранены
+    в конфигурацию.
+  give_wand: Вы получили волшебный топор.
+  command_only_in_game: Эту команду можно использовать только в игре.
+  reload_config: Конфигурация перезагружена.
+wand:
+  name: |-
+    Супер топорик
+    vk.com/m3fri
+...

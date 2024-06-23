@@ -1,0 +1,6 @@
+name: MLake
+main: m3fri\MLake
+version: 1.0
+author: vk.com/m3fri
+description: Плагин на денежное озеро
+api: 3.0.0
